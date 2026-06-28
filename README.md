@@ -3,7 +3,7 @@
 ![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-PC-blue)
 ## 0.목차
--[프로젝트 소개](#프로젝트-소개)
+-[프로젝트 소개](#1.-프로젝트-소개)
 
 -[개발 기간](#개발-기간)
 
@@ -13,7 +13,7 @@
 
 -[문제 상황 및 해결 방법](#문제-상황-및-해결-방법)
 
-## 1. 프로젝트 소개(#프로젝트-소개)
+## 1. 프로젝트 소개
 <div align="left">
   <img src="https://github.com/user-attachments/assets/51a7a697-c9a7-4f9c-99ea-6034b06b728b" width="100%">
 <br>
