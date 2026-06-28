@@ -12,3 +12,10 @@
 -[기술 스택](#기술-스택)
 
 -[문제 상황 및 해결 방법](#문제-상황-및-해결-방법)
+
+## 1. 프로젝트 소개
+<div align="center">
+  <img src="https://via.placeholder.com/800x400.png?text=Last+Blessing+Gameplay+GIF](https://github.com/junanipm/Unity_3D_Portfolio/issues/6" width="80%">
+</div>
+
+<br>
