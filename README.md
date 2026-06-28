@@ -15,7 +15,7 @@
 
 ## 1. 프로젝트 소개
 <div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Last+Blessing+Gameplay+GIF](https://github.com/junanipm/Unity_3D_Portfolio/issues/6" width="80%">
+  <img src="https://github.com/junanipm/Unity_3D_Portfolio/issues/6.png" width="80%">
 </div>
 
 <br>
