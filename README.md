@@ -14,8 +14,6 @@
 -[문제 상황 및 해결 방법](#문제-상황-및-해결-방법)
 
 ## 1. 프로젝트 소개
-<div align="center">
-  <img src="https://github.com/junanipm/Unity_3D_Portfolio/issues/6.png" width="80%">
-</div>
-
+<div align="left">
+  <img src="https://github.com/user-attachments/assets/51a7a697-c9a7-4f9c-99ea-6034b06b728b" width="100%">
 <br>
