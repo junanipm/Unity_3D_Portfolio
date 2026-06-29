@@ -2,10 +2,10 @@
 ![Unity](https://img.shields.io/badge/Unity-2022.3-black?logo=unity)
 ![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-PC-blue)
+<!---
 ## 0.목차
 -[프로젝트 소개](#1.-프로젝트-소개)
-
-<!--- -[개발 기간](#개발-기간)
+ -[개발 기간](#개발-기간)
 
 -[핵심 기능](#핵심-기능)
 
@@ -47,3 +47,19 @@
 이승과 저승 사이에 존재하는 가상의 숲을 배경으로 하는 3D 경영 시뮬레이터 게임입니다.
 
 3일간 가게를 운영하며 재료를 주문하고, 미니 게임을 통해 음식을 만들어 손님들에게 대접하여 각 일차의 마지막에 스토리를 진행하는 특별 NPC의 주문을 받게 됩니다. 
+
+## 2. 개발 환경
+<br>
+● 2022.3.38f1
+<br>
+● C#
+<br>
+● Visual Studio Code
+
+## 3. 사용 기술
+| 기술 | 설명 |
+| --- | --- |
+| 디자인 패턴 | Singleton 패턴과 상속을 이용한 코드 개선 및 중앙 집중식 데이터 관리 구현|
+| 자원 할당 알고리즘 | Boolean Array 기반의 자원 할당 알고리즘 구현 |
+| RayCast | 오브젝트 인터랙션 감지 구현 |
+| 물리 충돌 최적화 | Collider 충돌 간 오류 제거를 위해 RayCast를 활용하여 충돌 알고리즘 구현 |
