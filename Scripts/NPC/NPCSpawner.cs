@@ -9,6 +9,7 @@ public class NPCSpawner : MonoBehaviour
     public GameObject eventNPC;
     public int maxNPCCount = 10;
     private int currentNPCCount = 0;
+    private Coroutine spawnCoroutine;
 
     public float spawnInterval = 3f;
     private float minZ = 220f;
@@ -21,7 +22,7 @@ public class NPCSpawner : MonoBehaviour
     void Start()
     {
 
-        StartCoroutine(SpawnNPC());
+        spawnCoroutine = StartCoroutine(SpawnNPC());
         
     }
 
@@ -60,7 +61,8 @@ public class NPCSpawner : MonoBehaviour
 
     public void StopSpawningNPC()
     {
-        StopCoroutine(SpawnNPC());
+        if (spawnCoroutine != null)
+            StopCoroutine(spawnCoroutine);
     }
     
     public void SpawnEventNPC()
