@@ -27,13 +27,8 @@ public class NPCOrder : MonoBehaviour
     private float currentTime;
     public Slider timerSlider;
     private bool isTimerRuning = false;
-    /*
-    [Header("이벤트 NPC UI")]
-    public GameObject Event01;
-    public GameObject Event02;
-    public GameObject Event03;
-    */
-
+    private Coroutine timerCoroutine;
+    
     public string childObjectName = "Cube";
     private void Awake()
     {
@@ -285,7 +280,7 @@ public class NPCOrder : MonoBehaviour
             return;
         isTimerRuning = true;
         currentTime = npcMaxTime;
-        StartCoroutine(UpdateTimer());
+        timerCoroutine = StartCoroutine(UpdateTimer());
     }
 
     private IEnumerator UpdateTimer()
@@ -313,6 +308,7 @@ public class NPCOrder : MonoBehaviour
 
     void OnDestroy()
     {
-        StopCoroutine(UpdateTimer());
+        if (timerCoroutine != null)                      
+            StopCoroutine(timerCoroutine);
     }
 }
